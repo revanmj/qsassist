@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
+    namespace 'pl.revanmj.qtassist'
     defaultConfig {
         applicationId "pl.revanmj.qtassist"
         minSdkVersion 24
-        targetSdkVersion 30
+        targetSdkVersion 34
         versionCode 5
         versionName "1.0.3"
     }
