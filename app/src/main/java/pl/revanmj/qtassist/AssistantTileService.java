@@ -1,4 +1,4 @@
-package app.qsassist;
+package pl.revanmj.qtassist;
 
 import android.app.SearchManager;
 import android.content.Intent;
