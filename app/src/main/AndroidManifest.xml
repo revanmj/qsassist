@@ -15,7 +15,17 @@
         <service
             android:name=".AssistantTileService"
             android:icon="@drawable/ic_assistant"
-            android:label="@string/tile_name"
+            android:label="@string/assistant_tile_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SettingsTileService"
+            android:icon="@drawable/ic_settings"
+            android:label="@string/settings_tile_name"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
             <intent-filter>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Assistant Quick Settings Tile</string>
-    <string name="tile_name">Assistant</string>
+    <string name="assistant_tile_name">Assistant</string>
+    <string name="settings_tile_name">Settings</string>
 </resources>
